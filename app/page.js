@@ -12,7 +12,7 @@ export default function Principal() {
     <div>
       <Inicio />
 
-      <div className="grid grid-cols-3 grid-rows-2 gap-2 bg-[#000] p-2">
+      <div className="grid grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 gap-2 bg-[#000] p-2">
         <CreacionDelCubo />
         <RecordGuinness />
         <SeccionDatos />
